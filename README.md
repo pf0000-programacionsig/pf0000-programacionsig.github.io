@@ -1,4 +1,4 @@
-# Creación y configuración del Jupyter Book de PF-0000 Programación en de aplicaciones en SIG
+# Creación y configuración del Jupyter Book de PF-0000 Programación de aplicaciones en SIG
 
 1. Creación de un ambiente Conda.
 2. Creación del Jupyter Book principal: pf0000-programacionsig.github.io
@@ -71,27 +71,27 @@ conda deactivate
 conda activate pf0000
 
 # Creación del Jupyter Book con una plantilla inicial
-jupyter-book create 2022-ii
+jupyter-book create 2023-ii
 
 # Generación de archivos HTML (en el subdirectorio _build/html)
-jupyter-book build 2022-ii
+jupyter-book build 2023-ii
 
-# En este punto, se crea en GitHub el repositorio 2022-ii
+# En este punto, se crea en GitHub el repositorio 2023-ii
 
 # Configuración del repositorio local y su branch main (para manejar los archivos fuente)
-cd 2022-ii
+cd 2023-ii
 git init
 git add .
 git commit -m "Commit inicial"
 git branch -M main
-git remote add origin git@github.com:pf0000-programacionsig/2022-ii.git
+git remote add origin git@github.com:pf0000-programacionsig/2023-ii.git
 git push -u origin main
 
 # Creación del branch gh-pages (para manejar los archivos HTML publicados)
 ghp-import -n -p -f _build/html
 
 # En este punto, se configura el repositorio para buscar los archivos de GH Pages en la rama gh-pages
-# El sitio debe estar disponible en https://pf0000-programacionsig.github.io/2022-ii/
+# El sitio debe estar disponible en https://pf0000-programacionsig.github.io/2023-ii/
 ```
 
 ## 4. Publicación de modificaciones
