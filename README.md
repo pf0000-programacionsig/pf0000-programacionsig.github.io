@@ -1,8 +1,8 @@
 # Creación y configuración del Jupyter Book de PF-0000 Programación de aplicaciones en SIG
 
 1. Creación de un ambiente Conda.
-2. Creación del Jupyter Book principal: pf0000-programacionsig.github.io
-3. Creación de un Jupyter Book para cada curso, por ejemplo: 2023-ii, accesible en https://pf0000-programacionsig.github.io/2023-ii/
+2. Creación del Jupyter Book principal: pf0000-programacionsig.github.io, accesible en https://pf0000-programacionsig.github.io/.
+3. Creación de un Jupyter Book para cada curso, por ejemplo: 2023-ii, accesible en https://pf0000-programacionsig.github.io/2023-ii/.
 4. Publicación de modificaciones.
 
 ## 1. Creación de un ambiente Conda
